@@ -7,6 +7,14 @@
       "android",
       "web"
     ],
+    "android": {
+      "package": "com.ReactNativeApps.YoutubeClone",
+      "versionCode": 1 
+    },
+    "ios": {
+      "bundleIdentifier": "com.ReactNativeApps.YoutubeClone",
+      "buildNumber": "1.0.0"
+    },
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -20,9 +28,7 @@
     },
     "assetBundlePatterns": [
       "**/*"
-    ],
-    "ios": {
-      "supportsTablet": true
-    }
+    ]
+    
   }
 }
